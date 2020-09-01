@@ -16,7 +16,7 @@ MEDI: 0.23287825691431946us
 MEAN: 0.2932801451193473us  
 MAX:  0.5013454386592047us
 
-I picked sizes and iterations such that their product is 2^24 because I thought that if I multuply the size of a problem by some number, I should divide the number of iterations of it by that same number so that my computer doesn't take too long to process the test, and to get a feel for how different balances between size and iteratiosn affects mean time per coordinate.
+I picked sizes and iterations such that their product is 2^24 because I thought that if I multuply the size of a problem by some number, I should divide the number of iterations of it by that same number so that my computer doesn't take too long to process the test, and to get a feel for how different balances between size and iterations affect mean time per coordinate.
 
 ### b.
 I measured three times and picked the middle number each time.
