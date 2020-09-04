@@ -1,0 +1,5 @@
+set datafile separator ','
+plot "update_locations.csv" using 1:2 with linespoint
+set xlabel "total number of objects"
+set ylabel "mean update time per coordinate (us)"
+set logscale x 2
